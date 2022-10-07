@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDOwvM4kzBTT7ILgjXVZjlG9Kf5m8lW0T0",
-  authDomain: "simulate-print.firebaseapp.com",
-  projectId: "simulate-print",
-  storageBucket: "simulate-print.appspot.com",
-  messagingSenderId: "740560913922",
-  appId: "1:740560913922:web:81467583c699684485891b",
-  measurementId: "G-770XG551FX",
+  apiKey: "AIzaSyBAvcDW0yQYTP0TjvgdQ4TwC3FrElFkH0k",
+  authDomain: "simulated-tone.firebaseapp.com",
+  projectId: "simulated-tone",
+  storageBucket: "simulated-tone.appspot.com",
+  messagingSenderId: "1087897947234",
+  appId: "1:1087897947234:web:677274d074c68ddcfe553b",
+  measurementId: "G-CGT3QL5P38",
 };
 
 const app = initializeApp(firebaseConfig);

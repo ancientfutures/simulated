@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "simulated-studio",
+    "site": "simulatedcolors",
     "public": "dist",
     "ignore": [
       "firebase.json",
