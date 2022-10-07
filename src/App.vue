@@ -34,8 +34,14 @@ import { RouterLink, RouterView } from "vue-router";
         </div>
         <div items-center flex flex-1 justify-end space-x-2>
           <DarkSwitcher />
-          <button i-carbon-logo-instagram w-6 h-6 />
-          <button i-bxl-behance w6 h6 />
+          <button
+            id="logo instagram"
+            aria-label="instagram"
+            i-carbon-logo-instagram
+            w-6
+            h-6
+          />
+          <button id="logo behance" aria-label="behance" i-bxl-behance w6 h6 />
         </div>
       </nav>
     </div>

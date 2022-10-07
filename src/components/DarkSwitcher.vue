@@ -7,6 +7,7 @@ const toggleDark = useToggle(isDark);
 
 <template>
   <button
+    id="dark switcher"
     aria-label="switcher"
     w-6
     h-6
