@@ -8,8 +8,8 @@ const firebaseConfig = {
   projectId: "simulate-print",
   storageBucket: "simulate-print.appspot.com",
   messagingSenderId: "740560913922",
-  appId: "1:740560913922:web:9f2f057412f270ec85891b",
-  measurementId: "G-5GTF84KPKG",
+  appId: "1:740560913922:web:81467583c699684485891b",
+  measurementId: "G-770XG551FX",
 };
 
 const app = initializeApp(firebaseConfig);

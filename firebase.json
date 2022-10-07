@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "simulated-studio",
     "public": "dist",
     "ignore": [
       "firebase.json",
