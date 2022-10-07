@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterLink } from "vue-router";
+import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
@@ -40,12 +40,7 @@ import { RouterLink } from "vue-router";
       </nav>
     </div>
   </header>
-  <main
-    flex
-    justify-center
-    p12
-    dark:bg-dark-800
-    h-screen
-    dark:text-white
-  ></main>
+  <main flex justify-center p12 dark:bg-dark-800 h-screen dark:text-white>
+    <RouterView />
+  </main>
 </template>
