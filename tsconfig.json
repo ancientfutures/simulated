@@ -1,0 +1,15 @@
+{
+  "include": ["src", "types"],
+  "compilerOptions": {
+    "jsx": "preserve",
+    "module": "ESNext",
+    "target": "ESNext",
+    "types": ["vite/client"],
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+}
